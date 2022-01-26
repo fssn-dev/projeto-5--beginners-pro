@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+ 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 2% 2% 0.5% 2%;
+}
+
+div:first-child{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+#senha{
+    margin-left: 0.45rem;
+}
+
+div:nth-child(2){
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+}
+
+button{
+    font-weight: 550;
+    height: 2rem;
+    width: 7rem;
+}
